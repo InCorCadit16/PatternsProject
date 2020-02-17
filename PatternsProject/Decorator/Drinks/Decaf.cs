@@ -4,16 +4,16 @@ using System.Text;
 
 namespace PatternsProject.Decorator.Drinks
 {
-    class DarkRoast:Beverage
+    class Decaf : Beverage
     {
-        public DarkRoast()
+        public Decaf()
         {
-            _description = "Dark Roast";
+            _description = "Decaf";
         }
 
         public override double Cost()
         {
-            return 0.99;
+            return 1.05;
         }
     }
 }
